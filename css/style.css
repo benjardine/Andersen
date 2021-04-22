@@ -18,6 +18,8 @@
 
 .transXnav-item {
   font-size: 10px; }
+  .transXnav-item .a {
+    color: #32342F; }
 
 .transXimage {
   height: 60px;
