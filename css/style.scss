@@ -11,14 +11,27 @@
   }
 
 
-.navbar-lewagon {
+.transXnavbar {
   justify-content: space-between;
   background: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 30px 30px 60px;
+}
 
-  .navbar-brand {
-    img {
-      width: 130px;
-      height: 40px;
-    }
-  }
+.transXnav-item {
+  font-size: 10px;
+}
+
+.transXimage {
+  height: 60px;
+  width: 130px;
+}
+
+.btn-transX {
+  color: white;
+  padding: 8px 24px;
+  background: rgb(41, 137, 105);
+  border-radius: 1px;
+  font-size: 10px;
 }

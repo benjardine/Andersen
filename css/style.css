@@ -9,11 +9,25 @@
   overflow: auto;
   z-index: -1; }
 
-.navbar-lewagon {
+.transXnavbar {
   justify-content: space-between;
-  background: white; }
-  .navbar-lewagon .navbar-brand img {
-    width: 130px;
-    height: 40px; }
+  background: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 30px 30px 60px; }
+
+.transXnav-item {
+  font-size: 10px; }
+
+.transXimage {
+  height: 60px;
+  width: 130px; }
+
+.btn-transX {
+  color: white;
+  padding: 8px 24px;
+  background: #298969;
+  border-radius: 1px;
+  font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
