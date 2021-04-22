@@ -32,4 +32,8 @@
   border-radius: 1px;
   font-size: 10px; }
 
+.react-container {
+  justify-content: center;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=style.css.map */
