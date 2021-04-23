@@ -15,7 +15,7 @@
 .transXnavbar {
   justify-content: space-between;
   background: white;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding: 30px 30px 30px 60px; }
 
@@ -34,17 +34,37 @@
 
 .btn-transX {
   color: white;
-  padding: 8px 24px;
+  padding: 28px 44px;
   background: #298969;
   border-radius: 1px;
-  font-size: 10px; }
+  font-size: 12px; }
 
 .react-form {
   justify-content: center;
   margin: 0 auto;
   width: 50%;
-  height: 300px;
-  background-color: white; }
+  height: 270px;
+  background-color: white;
+  padding: 30px 30px 30px 0; }
+  .react-form h1 {
+    font-size: 20px;
+    padding-left: 30px;
+    color: gray; }
+  .react-form h6 {
+    color: gray;
+    font-size: 10px;
+    padding-left: 30px; }
+  .react-form input[type=text] {
+    color: gray; }
+  .react-form .testing {
+    margin-left: 30px; }
+  .react-form input[type=submit] {
+    color: white;
+    font-size: 10px;
+    background-color: #032A7D;
+    padding: 20px 10px 20px 10px;
+    width: 290px;
+    border: none; }
 
 .middle-header {
   display: grid;
@@ -70,6 +90,14 @@
 .content {
   background-color: white;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0 0 0; }
+
+.left-content {
+  display: grid;
   grid-template-columns: 1fr 1fr; }
+
+.blue-box {
+  background-color: #032A7D; }
 
 /*# sourceMappingURL=style.css.map */
