@@ -19,7 +19,7 @@
   background: white;
   width: 80%;
   margin: 0 auto;
-  padding: 30px 30px 30px 60px;
+  padding: 10px 0px 10px 30px;
 }
 
 
@@ -67,6 +67,9 @@
     }
     input[type=text] {
     color: gray;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+    width: 200px;
     }
     .testing {
     margin-left: 30px;
@@ -122,8 +125,14 @@
 
 .blue-box {
   background-color: #032A7D;
+  clip-path: polygon(70% 1%, 100% 44%, 100% 100%, 0 100%, 0 0);
+
 }
 
+.footer {
+  height: 500px;
+  background-color: white;
+}
 
 
 
