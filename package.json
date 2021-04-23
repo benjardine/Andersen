@@ -19,6 +19,7 @@
   "dependencies": {
     "location-picker": "^1.1.1",
     "node-sass": "^5.0.0",
+    "rc-datepicker": "^5.0.16",
     "react-google-map-picker": "^1.2.2"
   },
   "devDependencies": {
