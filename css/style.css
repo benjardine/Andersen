@@ -64,7 +64,7 @@
   .react-form input[type=submit] {
     color: white;
     font-size: 10px;
-    background-color: #032A7D;
+    background-color: #122B80;
     padding: 20px 10px 20px 10px;
     width: 290px;
     border: none; }
@@ -102,7 +102,8 @@
 
 .blue-box {
   background-color: #032A7D;
-  clip-path: polygon(70% 1%, 100% 44%, 100% 100%, 0 100%, 0 0); }
+  clip-path: polygon(70% 1%, 100% 44%, 100% 100%, 0 100%, 0 0);
+  margin-right: 20%; }
 
 .footer {
   height: 500px;
