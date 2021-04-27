@@ -87,7 +87,7 @@
   color: white;
   padding: 16px 32px;
   background: #298969;
-  border-radius: 1px 1px 6px 1px;
+  border-radius: 1px 1px 15px 1px;
   font-size: 14px; }
 
 .content {
@@ -100,7 +100,7 @@
   background-color: #222a9c;
   clip-path: polygon(85% 0, 100% 16%, 100% 100%, 0 100%, 0 0);
   float: right;
-  padding: 30px 30px 30px 30px;
+  padding: 60px 30px 60px 30px;
   margin: 0 150px 0 0;
   width: 300px; }
   .blue-box h1 {
@@ -113,6 +113,14 @@
 
 .bigtext {
   font-size: 60px; }
+
+.right-content {
+  width: 500px; }
+  .right-content h2 {
+    font-size: 20px; }
+
+.gray-header {
+  color: gray; }
 
 .footer {
   height: 500px;

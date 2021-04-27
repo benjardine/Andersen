@@ -107,7 +107,7 @@
   color: white;
   padding: 16px 32px;
   background: rgb(41, 137, 105);
-  border-radius: 1px 1px 6px 1px;
+  border-radius: 1px 1px 15px 1px;
   font-size: 14px;
 }
 
@@ -118,15 +118,11 @@
   padding: 50px 0 0 0;
 }
 
-.left-content {
-
-}
-
 .blue-box {
   background-color: #222a9c;
   clip-path: polygon(85% 0, 100% 16%, 100% 100%, 0 100%, 0 0);
   float: right;
-  padding: 30px 30px 30px 30px;
+  padding: 60px 30px 60px 30px;
   margin: 0 150px 0 0;
   width: 300px;
     h1 {
@@ -139,16 +135,25 @@
     font-size: 10px;
     }
 }
-
 .bigtext {
   font-size: 60px;
+}
+
+.right-content {
+  width: 500px;
+    h2 {
+      font-size: 20px;
+    }
+}
+
+.gray-header {
+  color: gray;
 }
 
 .footer {
   height: 500px;
   background-color: white;
 }
-
 
 
 
