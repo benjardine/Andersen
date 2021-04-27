@@ -87,7 +87,7 @@
 .middle-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 200px 30px 100px 250px;
+  padding: 200px 30px 200px 250px;
 
   .worldwide {
     color: white;
@@ -111,18 +111,27 @@
   font-size: 14px;
 }
 
+.btn-transX-content {
+  color: gray;
+  padding: 16px 32px;
+  background: white;
+  border: 2px solid rgb(41, 137, 105);
+  border-radius: 1px 1px 15px 1px;
+  font-size: 12px;
+}
+
 .content {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 50px 0 0 0;
+  padding: 100px 0 100px 0;
 }
 
 .blue-box {
   background-color: #222a9c;
   clip-path: polygon(85% 0, 100% 16%, 100% 100%, 0 100%, 0 0);
   float: right;
-  padding: 60px 30px 60px 30px;
+  padding: 60px 50px 60px 50px;
   margin: 0 150px 0 0;
   width: 300px;
     h1 {
@@ -141,6 +150,9 @@
 
 .right-content {
   width: 500px;
+    h1 {
+      font-size: 36px;
+    }
     h2 {
       font-size: 20px;
     }
@@ -151,8 +163,25 @@
 }
 
 .footer {
-  height: 500px;
-  background-color: white;
+  height: 300px;
+  padding: 50px 50px 50px 50px;
+  background-color: #E6E9EB;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-footer {
+  h1 {
+    float: right;
+    text-align: right;
+  }
+}
+
+.right-footer {
+  h1 {
+    font-size: 20px;
+  }
+
 }
 
 
