@@ -96,14 +96,23 @@
   grid-template-columns: 1fr 1fr;
   padding: 50px 0 0 0; }
 
-.left-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr; }
-
 .blue-box {
-  background-color: #032A7D;
-  clip-path: polygon(70% 1%, 100% 44%, 100% 100%, 0 100%, 0 0);
-  margin-right: 20%; }
+  background-color: #222a9c;
+  clip-path: polygon(85% 0, 100% 16%, 100% 100%, 0 100%, 0 0);
+  float: right;
+  padding: 30px 30px 30px 30px;
+  margin: 0 150px 0 0;
+  width: 300px; }
+  .blue-box h1 {
+    color: #298969;
+    display: inline;
+    font-weight: bold; }
+  .blue-box p {
+    color: white;
+    font-size: 10px; }
+
+.bigtext {
+  font-size: 60px; }
 
 .footer {
   height: 500px;
