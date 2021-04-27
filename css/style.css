@@ -139,11 +139,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
-.left-footer h1 {
-  float: right;
-  text-align: right; }
+.left-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
 
-.right-footer h1 {
-  font-size: 20px; }
+.left-text p {
+  color: #5A5B57; }
+
+.right-footer {
+  padding: 0 100px 0 0; }
+  .right-footer h1 {
+    font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */

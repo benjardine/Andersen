@@ -171,13 +171,18 @@
 }
 
 .left-footer {
-  h1 {
-    float: right;
-    text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.left-text {
+  p {
+    color: #5A5B57;
   }
 }
 
 .right-footer {
+  padding: 0 100px 0 0;
   h1 {
     font-size: 20px;
   }
